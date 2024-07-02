@@ -937,6 +937,11 @@ textarea.error {
   .wrapping-1 {
     gap: 100px;
   }
+  .overlay {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.674);
+    padding: 150px 150px 170px 250px;
+  }
   .this_image_home img {
     width: 310px;
     height: 180px;
@@ -970,7 +975,7 @@ textarea.error {
   }
   .overlay .img-overlay {
     position: absolute;
-    bottom: 330px;
+    bottom: 430px;
     left: 45px;
     width: 190px;
     height: 150px;
@@ -987,7 +992,6 @@ textarea.error {
   }
   .overlay h1 {
     position: absolute;
-    bottom: 260px;
     left: 45px;
     color: var(--font);
   }
@@ -995,7 +999,7 @@ textarea.error {
     position: absolute;
     color: var(--light);
     left: 45px;
-    bottom: 120px;
+    bottom: 240px;
     width: 350px;
   }
   /* HOME CLOSED */
