@@ -1,6 +1,5 @@
 document.title = "Portofolio";
 
-const textBertambah = document.querySelector(".second-title");
 const imageClick = document.getElementById("image_click");
 const navigation = document.getElementById("navigation");
 const home = document.querySelector(".My_container_home");
@@ -8,16 +7,6 @@ const header = document.getElementById("shadow_on_of");
 
 // how to make of validate input this web site my
 
-const textLoad = () => {
-  setTimeout(() => {
-    textBertambah.textContent = "Front'end Developer";
-  });
-  setTimeout(() => {
-    textBertambah.textContent = "Achmad Aris hermawan";
-  }, 8000);
-};
-textLoad();
-setInterval(textLoad, 16000);
 const handleClickImage = (show) => (show ? (imageClick.style.display = "flex") : (imageClick.style.display = "none"));
 
 window.onscroll = function () {
@@ -174,15 +163,15 @@ form.addEventListener("submit", async (e) => {
       message: messageEl.value,
     };
 
-    const serviceID = "service_jot85ep";
-    const templateID = "template_6qlp24a";
+    // const serviceID = "service_jot85ep";
+    // const templateID = "template_6qlp24a";
 
     inputs.forEach((input) => (input.value = ""));
     textarea.forEach((textarea) => (textarea.value = ""));
 
     try {
       const res = await emailjs.send(serviceID, templateID, params);
-      alert(res, "<< Form telah terkirim. terimakasih atas partisipasi nya >>");
+      console.log(res), alert("<< Form telah terkirim >>");
     } catch (error) {
       alert(error, "<< Invalid to send this form >>");
     }
