@@ -228,9 +228,9 @@ h2 {
 }
 .btn-wrapping {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   gap: 120px;
-  padding-top: 4rem;
+  padding: 4rem 0 0 2rem;
 }
 .overlay {
   position: fixed;
@@ -284,24 +284,10 @@ h2 {
   border: 2px solid var(--font);
   transition: 0.2s all ease-in;
 }
-.btn-box-home-2 a {
-  text-decoration: none;
-  cursor: pointer;
-  border-radius: 5px;
-  color: var(--light);
-  padding: 0.8rem 1.8rem;
-  background: var(--font);
-  transition: 0.2s all ease-in;
-}
 .btn-box-home-1 a:hover {
   background: var(--font);
   color: var(--light);
   padding: 0.7rem 1.8rem;
-}
-.btn-box-home-2 a:hover {
-  background: transparent;
-  color: var(--font);
-  border: 2px solid var(--font);
 }
 
 /* MENU HERO SECTION HOME CLOSED */
@@ -964,15 +950,6 @@ textarea.error {
     padding: 0.6rem 1rem;
     background: transparent;
     border: 2px solid var(--font);
-    transition: 0.2s all ease-in;
-  }
-  .btn-box-home-2 a {
-    text-decoration: none;
-    cursor: pointer;
-    border-radius: 5px;
-    color: var(--light);
-    padding: 0.6rem 1rem;
-    background: var(--font);
     transition: 0.2s all ease-in;
   }
   .overlay .img-overlay {
