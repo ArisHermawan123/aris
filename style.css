@@ -337,6 +337,7 @@ h2 {
   gap: 220px;
   padding-top: 160px;
 }
+/* / */
 .logo-bahasa-program {
   display: flex;
   justify-content: center;
@@ -356,6 +357,7 @@ h2 {
   justify-content: center;
   text-align: center;
 }
+/*  */
 .tilt {
   transition: all 0.3s ease-in-out;
 }
@@ -461,15 +463,14 @@ h2 {
   border-radius: 90px;
 }
 .img-profile {
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 40px;
-  height: 40px;
-  border-radius: 90px;
   position: absolute;
   left: 400px;
-  top: 11px;
-  cursor: pointer;
+  top: 8px;
+}
+.img-profile img {
+  border-radius: 30px;
+  width: 45px;
+  height: 45px;
 }
 .wrapping-5 {
   color: var(--bold);
@@ -925,7 +926,7 @@ textarea.error {
   /* NAVIGATION CLOSED */
 
   /* HOME */
-  .this_span{
+  .this_span {
     padding-left: 2rem;
   }
   .text.first-title,
@@ -976,7 +977,7 @@ textarea.error {
   }
   .overlay .img-overlay {
     position: absolute;
-    bottom: 430px;
+    bottom: 350px;
     left: 45px;
     width: 190px;
     height: 150px;
@@ -993,6 +994,7 @@ textarea.error {
   }
   .overlay h1 {
     position: absolute;
+    top: 350px;
     left: 45px;
     color: var(--font);
   }
@@ -1000,7 +1002,7 @@ textarea.error {
     position: absolute;
     color: var(--light);
     left: 45px;
-    bottom: 240px;
+    bottom: 10p7x;
     width: 350px;
   }
   /* HOME CLOSED */
