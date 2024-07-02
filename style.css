@@ -25,6 +25,8 @@ html {
 }
 body {
   color: var(--light);
+  width: 100%;
+  overflow-x: hidden;
 }
 /* NAVIGATION IN PORTOFOL */
 header {
@@ -156,29 +158,8 @@ nav ul .menu_logout {
 }
 .this_span {
   color: var(--font);
-  font-size: 45px;
-  z-index: -1;
+  font-size: 40px;
   padding-top: 110px;
-}
-.this_span .text {
-  position: relative;
-}
-.this_span .text.first-title {
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: var(--font);
-  color: var(--light);
-  z-index: -1;
-}
-.text.second-title::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  background: var(--light);
-  border-left: 4px solid var(--font);
-  animation: animate 8s steps(12) infinite;
 }
 .My_container_home .this_hero_home h1,
 h2 {
@@ -903,10 +884,6 @@ textarea.error {
 /* @ MEDIA ALL */
 @media screen and (max-width: 568px) {
   /* NAVIGATION */
-  #body {
-    width: 100%;
-    overflow-x: hidden;
-  }
   nav ul {
     position: absolute;
     background-color: #9dc7c751;
@@ -1239,14 +1216,5 @@ textarea.error {
 @keyframes showRight {
   100% {
     width: 0;
-  }
-}
-@keyframes animate {
-  40%,
-  60% {
-    left: 100%;
-  }
-  100% {
-    left: 0;
   }
 }
