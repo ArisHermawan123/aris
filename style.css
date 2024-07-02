@@ -137,8 +137,7 @@ nav ul .menu_logout {
 /* CLOSE NAVIGATION */
 
 /* MENU HERO SECTION HOME */
-.My_container_home .this_part_home {
-  display: flex;
+.My_container_home {
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -146,7 +145,7 @@ nav ul .menu_logout {
   flex-wrap: wrap;
 }
 .wrapping-0 {
-  padding-top: 60px;
+  padding-top: 30px;
 }
 .wrapping-1 {
   display: flex;
@@ -225,6 +224,10 @@ h2 {
   width: 530px;
   height: 350px;
   border-radius: 20px;
+}
+.this_span {
+  padding-left: 15rem;
+  padding-top: 11rem;
 }
 .btn-wrapping {
   display: flex;
@@ -912,9 +915,7 @@ textarea.error {
   /* NAVIGATION CLOSED */
 
   /* HOME */
-  .this_span {
-    padding-left: 2rem;
-  }
+
   .text.first-title,
   .text.second-title {
     font-size: 25px;
@@ -923,6 +924,7 @@ textarea.error {
     font-size: 25px;
   }
   .wrapping-1 {
+    padding: 0;
     gap: 100px;
   }
   .overlay {
@@ -938,10 +940,11 @@ textarea.error {
     margin: auto;
   }
   .btn-wrapping {
-    display: "";
-    padding-top: 3rem;
-    gap: 2rem;
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
   }
+
   .btn-box-home-1 a {
     text-decoration: none;
     cursor: pointer;
@@ -985,8 +988,8 @@ textarea.error {
   /* HOME CLOSED */
 
   /* ABOUT */
+
   .My_container_about {
-    padding-top: 0;
     gap: 0;
   }
   .My_container_about h1 {
@@ -1177,15 +1180,14 @@ textarea.error {
   }
   /* FOOTER CLOSED */
 }
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1024px) {
   /* CONTACT */
-
+  .this_span {
+    padding-left: 5rem;
+  }
   /* CLOSED CONTACT */
   .My_container_about {
-    padding-top: 600px;
-  }
-  .wrapping-2 {
-    padding-top: 5x60px;
+    padding-top: 100px;
   }
 }
 @keyframes bounce {
