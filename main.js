@@ -163,8 +163,8 @@ form.addEventListener("submit", async (e) => {
       message: messageEl.value,
     };
 
-    // const serviceID = "service_jot85ep";
-    // const templateID = "template_6qlp24a";
+    const serviceID = "service_jot85ep";
+    const templateID = "template_6qlp24a";
 
     inputs.forEach((input) => (input.value = ""));
     textarea.forEach((textarea) => (textarea.value = ""));
