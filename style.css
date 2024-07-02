@@ -1142,6 +1142,9 @@ textarea.error {
     justify-content: center;
     padding: 0 0 2rem 0;
   }
+  .WhatsApp a button {
+    color: var(--bold);
+  }
   /* CONTACT CLOSED */
 
   /* FOOTER */
