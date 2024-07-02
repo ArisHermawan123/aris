@@ -270,7 +270,7 @@ h2 {
 .overlay p {
   position: absolute;
   color: var(--light);
-  bottom: 130px;
+  bottom: 180px;
   width: 490px;
 }
 .stop-scroll {
@@ -957,7 +957,7 @@ textarea.error {
   }
   .overlay .img-overlay {
     position: absolute;
-    bottom: 350px;
+    bottom: 270px;
     left: 45px;
     width: 190px;
     height: 150px;
@@ -974,7 +974,7 @@ textarea.error {
   }
   .overlay h1 {
     position: absolute;
-    top: 350px;
+    top: 160px;
     left: 45px;
     color: var(--font);
   }
@@ -982,7 +982,7 @@ textarea.error {
     position: absolute;
     color: var(--light);
     left: 45px;
-    bottom: 10p7x;
+    bottom: 120px;
     width: 350px;
   }
   /* HOME CLOSED */
