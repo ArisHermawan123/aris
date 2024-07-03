@@ -25,7 +25,7 @@ html {
 }
 body {
   color: var(--light);
-  width: 100%;
+  width: 100vw;
   overflow-x: hidden;
 }
 /* NAVIGATION IN PORTOFOL */
@@ -873,6 +873,11 @@ textarea.error {
 
 /* @ MEDIA ALL */
 @media screen and (max-width: 568px) {
+  body {
+    
+    width: 100vw;
+    overflow-x: hidden;
+  }
   /* NAVIGATION */
   nav ul {
     position: absolute;
