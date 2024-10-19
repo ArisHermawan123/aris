@@ -25,7 +25,7 @@ function handleHamburgerMenu() {
   }
 }
 
-async function navigationLoad() {
+function navigationLoad() {
   if (navigation.style.display === "flex") {
     navigation.style.display = "none";
   } else {
@@ -163,15 +163,15 @@ form.addEventListener("submit", async (e) => {
       message: messageEl.value,
     };
 
-    // const serviceID = "service_jot85ep";
-    // const templateID = "template_6qlp24a";
+    const serviceID = "service_jot85ep";
+    const templateID = "template_6qlp24a";
 
     inputs.forEach((input) => (input.value = ""));
     textarea.forEach((textarea) => (textarea.value = ""));
 
     try {
       const res = await emailjs.send(serviceID, templateID, params);
-      console.log(res), alert("<< Form telah terkirim >>");
+      console.log(res) && alert("<< Form telah terkirim >>");
     } catch (error) {
       alert(error, "<< Invalid to send this form >>");
     }
