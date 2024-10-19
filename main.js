@@ -171,7 +171,11 @@ form.addEventListener("submit", async (e) => {
 
     try {
       const res = await emailjs.send(serviceID, templateID, params);
+<<<<<<< HEAD
       console.log(res) && alert("<< Form telah terkirim >>");
+=======
+      console.log(res), alert("<< Form telah terkirim >>");
+>>>>>>> 9e8c300eb5c57df857620d4b481716fa09613cc0
     } catch (error) {
       alert(error, "<< Invalid to send this form >>");
     }

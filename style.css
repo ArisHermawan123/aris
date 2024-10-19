@@ -873,6 +873,14 @@ textarea.error {
 
 /* @ MEDIA ALL */
 @media screen and (max-width: 568px) {
+<<<<<<< HEAD
+=======
+  body {
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+  }
+>>>>>>> 9e8c300eb5c57df857620d4b481716fa09613cc0
   /* NAVIGATION */
   nav ul {
     position: absolute;
